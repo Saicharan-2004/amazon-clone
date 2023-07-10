@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
+    <script
+      src="https://kit.fontawesome.com/f5e06b67ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar" id="top">
+        <div class="nav-logo border">
+          <div class="logo"></div>
+        </div>
+        <div class="nav-location">
+          <table class="border">
+            <tr>
+              <td>
+                <i class="fa-solid fa-location-dot"></i>
+              </td>
+              <td>
+                <span id="delivery-text"> Deliver to </span>
+                <br />
+                <span id="INDIA"> India </span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="nav-search">
+          <select class="drop-down-option-search">
+            <option>All</option>
+          </select>
+          <input class="search-bar" type="text" placeholder=" Search Amazon" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="nav-country">
+          <div class="usa-flag">
+            <i class="fa-solid fa-flag-usa"></i>
+          </div>
+          <select class="country-picking-option">
+            <option>EN</option>
+          </select>
+        </div>
+        <div class="nav-sign-in">
+          <table>
+            <tr>
+              <td>
+                <span class="sign-in-text"> Hello,sign in </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <select class="sign-in-dropbox">
+                  <option>Accounts & Lists</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="nav-orders">
+          <span id="returns">Returns </span>
+          <br />
+          <span id="orders">& Orders</span>
+        </div>
+        <div class="nav-cart">
+          <div class="cart-logo">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div>
+            <span id="Cart">Cart</span>
+          </div>
+        </div>
+      </div>
+      <div class="backgroundColorForPanel">
+        <div class="panel">
+          <div class="menu panel-item">
+            <i class="fa-solid fa-bars"></i>
+            <div>
+              <span>All</span>
+            </div>
+          </div>
+          <div class="panel-item">
+            <span>Today's Deal</span>
+          </div>
+          <div class="panel-item">
+            <span>Customer service</span>
+          </div>
+          <div class="panel-item">
+            <span>Registry</span>
+          </div>
+          <div class="panel-item">
+            <span>Gift Cards</span>
+          </div>
+          <div class="panel-item">
+            <span>Sell</span>
+          </div>
+          <div class="restColor"></div>
+        </div>
+      </div>
+    </header>
+    <div class="hero-section">
+      <div class="hero-text">
+        <span
+          >You are on amazon.com .You can also shop on Amazon India for millions
+          of products with fast local delivery.<a
+            href="https://www.amazon.in/"
+            target="_blank"
+          >
+            Click here to go to amazon.in</a
+          ></span
+        >
+      </div>
+    </div>
+    <div class="shop-section">
+      <div class="Deals-Promotions">
+        <table>
+          <tr>
+            <td>
+              <span style="font-size: 21px; font-weight: 700">
+                Deals & Promotions
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td><div class="Delivery-boy"></div></td>
+          </tr>
+          <tr>
+            <td style="position: relative; left: 1rem">
+              <a
+                href="#"
+                target="_blank"
+                style="
+                  text-decoration: none;
+                  color: #007185;
+                  font-size: 0.8125rem;
+                "
+              >
+                Shop Now</a
+              >
+            </td>
+          </tr>
+        </table>
+
+        <br />
+
+        <div></div>
+      </div>
+      <div class="gaming">
+        <table cellspacing="5">
+          <tr>
+            <td colspan="2">
+              <span style="font-size: 21px; font-weight: 700">
+                Gaming Accessories
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="game-1"></div>
+            </td>
+            <td>
+              <div class="game-2"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <span style="font-size: 10px">HeadSet</span>
+              </div>
+            </td>
+            <td>
+              <div>
+                <span style="font-size: 10px">KeyBoard</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="game-3"></div>
+            </td>
+            <td>
+              <div class="game-4"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <span style="font-size: 10px">Gaming mouse</span>
+              </div>
+            </td>
+            <td>
+              <div>
+                <span style="font-size: 10px">Chairs</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <a
+                  href="#"
+                  target="_blank"
+                  style="
+                    text-decoration: none;
+                    color: #007185;
+                    font-size: 0.8125rem;
+                  "
+                  >See More</a
+                >
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="fashion">
+        <table cellspacing="5">
+          <td colspan="2">
+            <span style="font-size: 21px; font-weight: 700">
+              Fashion Accessories
+            </span>
+          </td>
+          <tr>
+            <td>
+              <div class="fashion-1"></div>
+            </td>
+            <td>
+              <div class="fashion-2"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <span style="font-size: 10px">Jeans under 50$</span>
+              </div>
+            </td>
+            <td>
+              <div>
+                <span style="font-size: 10px">Tops under 25$</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="fashion-3"></div>
+            </td>
+            <td>
+              <div class="fashion-4"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <span style="font-size: 10px">Dresses under 30$</span>
+              </div>
+            </td>
+            <td>
+              <div>
+                <span style="font-size: 10px">Shoes under 50$</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <a
+                  href="#"
+                  target="_blank"
+                  style="
+                    text-decoration: none;
+                    color: #007185;
+                    font-size: 0.8125rem;
+                  "
+                  >See All Deals</a
+                >
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="Refresh-space">
+        <table cellspacing="5">
+          <td colspan="2">
+            <span style="font-size: 21px; font-weight: 700">
+              Refresh Your Space
+            </span>
+          </td>
+          <tr>
+            <td>
+              <div class="refresh-1"></div>
+            </td>
+            <td>
+              <div class="refresh-2"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <span style="font-size: 10px">Dining</span>
+              </div>
+            </td>
+            <td>
+              <div>
+                <span style="font-size: 10px">Home</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="refresh-3"></div>
+            </td>
+            <td>
+              <div class="refresh-4"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <span style="font-size: 10px">Kitchen</span>
+              </div>
+            </td>
+            <td>
+              <div>
+                <span style="font-size: 10px">Health and Beauty</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <a
+                  href="#"
+                  target="_blank"
+                  style="
+                    text-decoration: none;
+                    color: #007185;
+                    font-size: 0.8125rem;
+                  "
+                  >Shop Home Products</a
+                >
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <br />
+    <div class="second-shop-section">
+      <div class="box">
+        <h2 style="text-align: center">Health & Personal Care</h2>
+        <br />
+        <div class="health-care"></div>
+        <div style="position: relative; left: 1rem">
+          <a
+            href="#"
+            target="_blank"
+            style="text-decoration: none; color: #007185; font-size: 0.8125rem"
+            >See More</a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <h2 style="text-align: center">Computer & Accessories</h2>
+        <br />
+        <div class="Computer"></div>
+        <div style="position: relative; left: 1rem">
+          <a
+            href="#"
+            target="_blank"
+            style="text-decoration: none; color: #007185; font-size: 0.8125rem"
+            >See More</a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <h2 style="text-align: center">New Arrival in Toys</h2>
+        <br />
+        <div class="toys"></div>
+        <div style="position: relative; left: 1rem">
+          <a
+            href="#"
+            target="_blank"
+            style="text-decoration: none; color: #007185; font-size: 0.8125rem"
+            >See More</a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <h2 style="text-align: center">Make-up Accessories</h2>
+        <br />
+        <div class="Makeup"></div>
+        <div style="position: relative; left: 1rem">
+          <a
+            href="#"
+            target="_blank"
+            style="text-decoration: none; color: #007185; font-size: 0.8125rem"
+            >See More</a
+          >
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- second-line  -->
+    <div class="second-shop-section">
+      <div class="box">
+        <h2 style="text-align: center">Furniture</h2>
+        <br />
+        <div class="furniture"></div>
+        <div style="position: relative; left: 1rem">
+          <a
+            href="#"
+            target="_blank"
+            style="text-decoration: none; color: #007185; font-size: 0.8125rem"
+            >See More</a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <h2 style="text-align: center">Phones & Accessories</h2>
+        <br />
+        <div class="mobile"></div>
+        <div style="position: relative; left: 1rem">
+          <a
+            href="#"
+            target="_blank"
+            style="text-decoration: none; color: #007185; font-size: 0.8125rem"
+            >See More</a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <h2 style="text-align: center">Pet food & Accessories</h2>
+        <br />
+        <div class="pets"></div>
+        <div style="position: relative; left: 1rem">
+          <a
+            href="#"
+            target="_blank"
+            style="text-decoration: none; color: #007185; font-size: 0.8125rem"
+            >See More</a
+          >
+        </div>
+      </div>
+      <div class="box">
+        <h2 style="text-align: center">Clothes</h2>
+        <br />
+        <div class="clothes"></div>
+        <div style="position: relative; left: 1rem">
+          <a
+            href="#"
+            target="_blank"
+            style="text-decoration: none; color: #007185; font-size: 0.8125rem"
+            >See More</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-class">
+        <div class="foot-panel1"><a href="#top">Back To Top</a></div>
+        <div class="foot-panel2">
+          <div class="footer-link1">
+            <ul>
+              <li><p>Get to Know Us</p></li>
+              <li><a href="#" target="_blank">Careers</a></li>
+              <li><a href="#" target="_blank">Blog</a></li>
+              <li><a href="#" target="_blank">About Amazon</a></li>
+              <li><a href="#" target="_blank">Investor Relations</a></li>
+              <li><a href="#" target="_blank">Amazon Devices</a></li>
+              <li><a href="#" target="_blank">Amazon Science</a></li>
+            </ul>
+          </div>
+          <div class="footer-link2">
+            <ul>
+              <li><p>Make Money with Us</p></li>
+              <li><a href="#" target="_blank">Sell products on Amazon</a></li>
+              <li><a href="#" target="_blank">Sell on Amazon Business</a></li>
+              <li><a href="#" target="_blank">Sell apps on Amazon</a></li>
+              <li><a href="#" target="_blank">Become an Affiliate</a></li>
+              <li><a href="#" target="_blank">Advertise Your Products</a></li>
+              <li><a href="#" target="_blank">Self-Publish with Us</a></li>
+              <li><a href="#" target="_blank">Host an Amazon Hub</a></li>
+            </ul>
+          </div>
+          <div class="footer-link3">
+            <ul>
+              <li><p>Amazon Payment Products</p></li>
+              <li><a href="#" target="_blank">Amazon Business Card</a></li>
+              <li><a href="#" target="_blank">Shop with Points</a></li>
+              <li><a href="#" target="_blank">Reload Your Balance</a></li>
+              <li><a href="#" target="_blank">Amazon Currency Converter</a></li>
+            </ul>
+          </div>
+          <div class="foot-link4">
+            <ul>
+              <li>
+                <p>Let Us Help You</p>
+              </li>
+              <li><a href="#" target="_blank">Amazon and COVID-19</a></li>
+              <li><a href="#" target="_blank">Your Account</a></li>
+              <li><a href="#" target="_blank">Your Orders</a></li>
+              <li><a href="#" target="_blank">Shipping Rates & Policies</a></li>
+              <li><a href="#" target="_blank">Returns & Replacements</a></li>
+              <li><a href="#" target="_blank">Manage Your Content and Devices</a></li>
+              <li><a href="#" target="_blank">Amazon Assistant</a></li>
+              <li><a href="#" target="_blank">Help</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-panel3">
+          <div class="logo">
+            
+          </div>
+        </div>
+        <div class="foot-panel4">
+          <div class="pages-1">
+            <div>
+              <a href="#" target="_blank">Conditions of Use</a>
+            </div>
+            <div>
+              <a href="#" target="_blank">Privacy Notice</a>
+            </div>
+            <div>
+              <a href="#" target="_blank">Your Ads Privacy Choices</a>
+            </div>
+          </div>
+          <div class="pages-2">
+            <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+          </div>
+        </div>
+    </footer>
+  </body>
+</html>
